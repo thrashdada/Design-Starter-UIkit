@@ -38,10 +38,31 @@
   <!--[if lt IE 8]>
   <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
-
-  <div class="uk-container uk-container-small">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quasi atque quod facilis aspernatur temporibus dolorem veniam quo dolores doloremque. Quaerat cupiditate, repudiandae error dignissimos eos fugit recusandae dolor iste dolore facilis necessitatibus nemo. Excepturi perferendis vel eaque totam suscipit qui corporis. Vero officiis magnam consequatur, nam. Amet tenetur et, quod nisi impedit maiores recusandae, veritatis quaerat necessitatibus voluptatum, beatae temporibus. Nam nostrum sit minus, vero doloribus a voluptatum vitae, impedit officia, recusandae odio similique officiis ipsum neque quod quo possimus ratione cum, hic aliquam explicabo molestias nemo. Officia totam atque architecto incidunt similique dolores quos nam blanditiis, neque. Facere!
+  <div class="uk-offcanvas-content">
+    <nav class="uk-navbar-container" uk-navbar>
+      <div class="uk-navbar-right">
+        <ul class="uk-navbar-nav uk-iconnav">
+          <li>
+            <a href="#" uk-toggle="target: #my-id" uk-icon="icon: menu"></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="uk-container uk-container-small">
+      <div class="uk-grid uk-margin-top">
+        <div class="uk-width-1-1">
+          <h1>Design Starter - Uikit</h1> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quasi atque quod facilis aspernatur temporibus dolorem veniam quo dolores doloremque. Quaerat cupiditate, repudiandae error dignissimos eos fugit recusandae dolor iste dolore facilis necessitatibus nemo. Excepturi perferendis vel eaque totam suscipit qui corporis. Vero officiis magnam consequatur, nam. Amet tenetur et, quod nisi impedit maiores recusandae, veritatis quaerat necessitatibus voluptatum, beatae temporibus. Nam nostrum sit minus, vero doloribus a voluptatum vitae, impedit officia, recusandae odio similique officiis ipsum neque quod quo possimus ratione cum, hic aliquam explicabo molestias nemo. Officia totam atque architecto incidunt similique dolores quos nam blanditiis, neque. Facere!
+        </div>
+      </div>
+    </div>
+    <!-- This is the off-canvas -->
+    <div id="my-id" uk-offcanvas>
+      <div class="uk-offcanvas-bar">
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+      </div>
+    </div>
   </div>
+  <!-- uk-offcanvas-content -->
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <script src="js/vendor/ie10-viewport-bug-workaround.js"></script>
   <!-- Custom js -->
